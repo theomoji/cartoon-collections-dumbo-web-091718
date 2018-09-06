@@ -5,7 +5,7 @@ def roll_call_dwarves(array_of_names)
 end
 
 def summon_captain_planet(array_of_planeteer_calls)
-  array_of_planeteer_calls.map! {|element| element.upcase.concat("!")}
+  array_of_planeteer_calls.map {|element| element.upcase.concat("!")}
 end
 
 def long_planeteer_calls(array_of_calls)

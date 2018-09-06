@@ -19,15 +19,4 @@ end
 
 
 
-# This method should accept an array of dwarf names, for instance:
-#
-# ```ruby
-# ["Doc", "Dopey", "Bashful", "Grumpy"]
-# ```
-#
-# It should then print out each name, in number order, using `puts`. The print-out should look like this:
-#
-# > 1. Doc
-# > 2. Dopey
-# > 3. Bashful
-# > 4. Grumpy
+

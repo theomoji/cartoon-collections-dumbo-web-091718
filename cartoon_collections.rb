@@ -1,7 +1,7 @@
 def roll_call_dwarves(array_of_names)
   array_of_names.each_with_index do |name, index|
     puts array_of_names[index+1]
-  end 
+  end
 end
 
 def summon_captain_planet# code an argument here
@@ -19,15 +19,15 @@ end
 
 
 
-This method should accept an array of dwarf names, for instance:
-
-```ruby
-["Doc", "Dopey", "Bashful", "Grumpy"]
-```
-
-It should then print out each name, in number order, using `puts`. The print-out should look like this:
-
-> 1. Doc
-> 2. Dopey
-> 3. Bashful
-> 4. Grumpy
+# This method should accept an array of dwarf names, for instance:
+#
+# ```ruby
+# ["Doc", "Dopey", "Bashful", "Grumpy"]
+# ```
+#
+# It should then print out each name, in number order, using `puts`. The print-out should look like this:
+#
+# > 1. Doc
+# > 2. Dopey
+# > 3. Bashful
+# > 4. Grumpy

@@ -20,5 +20,5 @@ end
 
 def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array_of_strings.compare(cheese_types)
+  array_of_strings == cheese_types
 end

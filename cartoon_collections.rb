@@ -20,6 +20,7 @@ end
 
 def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-
-
+  for element in array_of_strings do
+    element == cheese_types
+  end
 end

@@ -21,9 +21,5 @@ end
 def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array_of_strings.zip(cheese_types).collect do |x, y|
-    pair = (x==y)
-    if pair
-       return pair
-     end
-   end
+    puts x,y
 end
